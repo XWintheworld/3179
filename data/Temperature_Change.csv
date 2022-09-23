@@ -1,28 +1,28 @@
 Country,Temperature
-Afghanistan,3.32
-?land,3.01
-Albania,1.97
-Algeria,2.86
-American Samoa,1.43
-Andorra,2.75
-Angola,1.61
-Anguilla,1.91
-Antarctica,1.05
-Antigua and Barbuda,1.86
-Argentina,1.11
-Armenia,2.38
-Aruba,1.31
-Australia,1.40
-Austria,2.90
-Azerbaijan,2.57
-Bahamas,1.53
-Bahrain,3.13
-Baker Island,1.22
-Bangladesh,0.90
-Barbados,1.66
-Belarus,3.16
-Belgium,2.84
-Belize,1.23
+Afghanistan,3.32 + 0.34
+?land,3.01 + 0.24
+Albania,1.97 + 0.28
+Algeria,2.86 + 0.28
+American Samoa,1.43 + 0.57
+Andorra,2.75 + 0.29
+Angola,1.61 + 0.34
+Anguilla,1.91 + 0.31
+Antarctica,1.05 + 0.76
+Antigua and Barbuda,1.86 + 0.28
+Argentina,1.11 + 0.26
+Armenia,2.38 + 0.29
+Aruba,1.31 + 0.34
+Australia,1.40 + 0.25
+Austria,2.90 + 0.28
+Azerbaijan,2.57 + 0.35
+Bahamas,1.53 + 0.29
+Bahrain,3.13 + 0.55
+Baker Island,1.22 + 0.17
+Bangladesh,0.90 + 0.41
+Barbados,1.66 + 0.32
+Belarus,3.16 + 0.21
+Belgium,2.84 + 0.20
+Belize,1.23 + 0.26
 Benin,1.82 + 0.42
 Bhutan,1.25 + 0.60
 Bolivia,0.65 + 0.29
@@ -43,7 +43,7 @@ Cayman Islands,1.47 + 0.30
 Central African Republic,1.78 + 0.33
 Chad,2.07 + 0.60
 Chile,0.96 + 0.37
-China,2.09
+China,2.09 + 0.23
 Christmas Island,1.60 + 0.27
 Colombia,1.23 + 0.22
 Comoros,1.92 + 0.32
@@ -177,7 +177,7 @@ Reunion,2.00 + 0.27
 Romania,2.18 + 0.19
 Russia,3.39 + 0.28
 Rwanda,1.87 + 0.23
-Saint BarthÂ¨Â¦lemy,1.91 + 0.31
+Saint Barth¨¦lemy,1.91 + 0.31
 Saint Kitts and Nevis,1.83 + 0.27
 Saint Lucia,1.66 + 0.30
 Saint Martin,1.91 + 0.31
