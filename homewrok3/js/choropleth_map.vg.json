@@ -1,0 +1,36 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Temperture change since 1960",
+  "width": 800,
+  "height": 400,
+  "projection": {"type": "equalEarth"},
+  "data": {
+    "url": "https://raw.githubusercontent.com/XWintheworld/3179/main/js/ne_110m.json",
+    "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+  },
+  "transform": [
+    {
+      "lookup": "properties.NAME",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/XWintheworld/3179/main/data/Temperature_Change.csv"
+        },
+        "key": "Country",
+        "fields": ["Temperature"]
+      }
+    },
+    {"calculate": "datum.Temperature + 0.1", "as": "Temperature Change"}
+  ],
+  "mark": {"type": "geoshape"},
+  "encoding": {
+    "color": {
+      "field": "Temperature",
+      "type": "quantitative",
+      "scale": { "type": "threshold", "domain": [1, 2, 3], "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603"] }
+    },
+    "tooltip": [
+      {"field": "properties.NAME", "type": "nominal", "title": "Country"},
+      {"field": "Temperature", "type": "quantitative","title": "Tempeture Change"}
+    ]
+  }
+}
